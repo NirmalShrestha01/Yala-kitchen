@@ -1,0 +1,326 @@
+html
+{
+	scroll-behavior: smooth;
+}
+*
+{
+	margin:0px; padding: 0px; box-sizing: border-box;
+}
+@media (max-width: 765px){
+#collapsibleNavbar
+{
+	background-color:#2f3640;
+
+}
+}
+.bg1
+{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url(img/banner1.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	margin-top: -80px;
+}
+.navbar
+{
+	background-color:#0009;
+	width:100%;
+	height: 80px;
+}
+.navbar-brand 
+{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 2rem !important;
+	
+}
+.navbar-brand a
+{
+	font-size: 200px;
+}
+
+.navbar-nav li
+{
+	font-family: 'Bree Serif', serif;
+	padding: 10px;
+}
+.nav-link
+{
+	font-size: 17px;
+}
+.slogan1 h1
+{
+	font-size: 30px;
+	font-family: 'Lobster', cursive;
+	padding-top:280px;
+	color: #fff;
+}
+.slogan2 p
+{
+	padding-top:50px;
+	font-family: 'Lobster', cursive;
+	font-size: 30px;
+	color: #fff;
+}
+				/*ANIMATION START*/
+	@import url(https://fonts.googleapis.com/css?family=Khula:700);
+	body {
+  	background: #fff;
+	}
+	.hidden {
+  	opacity:0;
+	}
+	.console-container {
+ 
+  	font-family:'Kaushan Script', cursive;
+  	font-size:45px;
+  	text-align:center;
+  	height:200px;
+  	width:400px;
+  	display:block;
+  	position:absolute;
+  	color:white;
+  	top:220px;
+  	bottom:0;
+  	left:0;
+  	right:0;
+  	margin:auto;
+	}
+	.console-underscore {
+   	display:inline-block;
+  	position:relative;
+  	top:-0.14em;
+  	left:10px;
+	}
+					/*ANIMATION END*/
+
+
+					/*FIRST PART ENDS HERE*/
+
+.ourstory1 h4
+{
+	text-align: center;
+	font-family: 'Kaushan Script', cursive;
+	padding-top: 100px;
+	font-size: 40px;
+}
+
+.ourstory1 h5
+{
+	padding-left: 65px;
+	padding-top:45px;
+	font-family: 'Kaushan Script', cursive;
+	color: #a6a9be;
+	font-size:17px;
+
+}
+.imgsetting
+{
+	border-radius: 40%;
+	width: 100px;
+	height: 100px;
+}
+.imgsetting:hover
+{
+	width: 120px;
+	height: 120px;
+}
+
+.fa-cutlery
+{
+	margin-top: 25px;
+	color: #fff;
+}
+.fa-cutlery:hover
+{
+	color:#000;
+}
+
+.fa-coffee 
+{
+	margin-top: 20px;
+	color: #fff;
+}
+.fa-coffee:hover
+{
+	color:#000;
+}
+.fa-joomla 
+{
+	margin-top: 20px;
+	color: #fff;
+}
+.fa-joomla:hover
+{
+	color:#000;
+}
+.fa-hand-peace-o
+{
+	margin-top: 20px;
+	color: #fff;
+}
+.fa-hand-peace-o:hover
+{
+	color:#000;
+}
+.row img
+{
+	
+	border-radius: 20px;
+}
+.row img:hover
+{
+	width:450px;
+	height: 350px;
+}
+.container h1
+{
+	text-align: center;
+	margin-top: 80px;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 50px;
+}
+.ourstory2
+{
+	
+	margin-top: 70px;
+}
+.ourstory2 i
+{
+	font-size: 60px;
+}
+.ourstory2 p
+{
+	font-family: 'Lobster', cursive;
+	color: #a6a9be;
+
+}
+.ourstory2 h3
+{
+	margin-top: 80px;
+	font-family: 'Kaushan Script', cursive;
+}
+
+
+			/*-----------------------------------preoader animi start-------------------*/
+			
+			
+			/*-----------------------------------preloaderanimi end------------------*/
+
+
+.contact-us
+{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url(img/contact1.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+	margin-top: 30px;
+
+}
+.contact-us h3
+{
+	font-family: 'Kaushan Script', cursive;
+	color: #fff;
+	padding-top: 100px;
+	
+}
+.contact-us h2
+{
+	font-family: 'Kaushan Script', cursive;
+	color: #fff;
+}
+.btn-secondary
+{
+	font-weight: bold;
+	font-family: 'Bree Serif', serif;
+	
+}
+.contact p
+{
+	font-family: 'Lobster', cursive;
+	
+	color: #fff;
+}
+
+.my-5 h2
+{
+	font-family:'Kaushan Script', cursive;
+	font-size: 40px;
+	margin-top: 50px;
+}
+.my-5 p
+{
+	font-family: 'Lobster', cursive;
+	color: #a6a9be;
+}
+.my-5 h4
+{
+	font-family:'Kaushan Script', cursive;
+}
+.my-5 i
+{
+	color: yellow;
+}
+.avatar img
+{
+	border-radius: 15px;
+}
+
+.footer1
+{
+	width: 100%
+	height: 300px;
+	background-color: #1b1711;
+	font-family: 'Lobster', cursive;
+	color: #fff;
+}
+.footer1 h5
+{
+	margin-top: 30px;
+}
+.footer1 i
+{
+	margin-top: 15px;
+	padding: 20px;
+	font-size: 25px;
+}
+.fa-instagram
+{
+	color: #c534ab;
+}
+.scrolltopbtn
+{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background:transparent;
+	bottom: 40px;
+	right:50px;
+	text-decoration:none;
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
+	color: #95a5a6;
+}
+
+.gallery img
+{
+	height: 250px;
+}
+.gallery img:hover
+{
+	width:250px;
+	height:250px;
+	background-color: red;
+}
+.avatar img:hover
+{
+	width:350px;
+	height: 350px;
+} 
+/*---------------------------------testtimonial-----------------------------------
+*/
+
+
+
+
+/*--------------------------end--------------------------*/
